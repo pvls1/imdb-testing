@@ -4,6 +4,7 @@ import com.codeborne.selenide.Condition;
 import lt.povilas.pupkys.test.TimestampUtils;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+
 import static com.codeborne.selenide.Selenide.*;
 
 /**
@@ -13,6 +14,11 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class ImdbTesting {
 
+    /**
+     * This test uses search on imdb, selects search subcategory, verify the page and takes a screenshot.
+     *
+     * @throws Exception
+     */
     @Test(description = "Test imdb search", groups = {"main"})
     public void tc0001() throws Exception {
         open("http://imdb.com");
