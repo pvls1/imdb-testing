@@ -1,4 +1,4 @@
-package lt.povilas.pupkys.test;
+package lt.povilas.pupkys.test.util;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;

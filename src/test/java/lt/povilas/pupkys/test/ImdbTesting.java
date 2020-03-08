@@ -1,7 +1,7 @@
 package lt.povilas.pupkys.test;
 
 import com.codeborne.selenide.Condition;
-import lt.povilas.pupkys.test.TimestampUtils;
+import lt.povilas.pupkys.test.util.TimestampUtils;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
