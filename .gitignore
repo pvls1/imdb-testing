@@ -3,3 +3,5 @@
 target
 test-output
 imdb-testing.iml
+src/main/main.iml
+src/test/test.iml
