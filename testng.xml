@@ -11,7 +11,7 @@
             </run>
         </groups>
         <classes>
-            <class name="ImdbTesting" />
+            <class name="lt.povilas.pupkys.test.ImdbTesting" />
         </classes>
     </test>
 </suite>
