@@ -12,6 +12,11 @@ import java.time.format.DateTimeFormatter;
 public class TimestampUtils {
     private static final DateTimeFormatter DATE_TIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy.MM.dd.HH.mm.ss");
 
+    /**
+     * Returns current time formatted as yyyy.MM.dd.HH.mm.ss
+     *
+     * @return String
+     */
     public static String getCurrentTimestamp() {
         return LocalDateTime.now().format(DATE_TIME_FORMATTER);
     }
